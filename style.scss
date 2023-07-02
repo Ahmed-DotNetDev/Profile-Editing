@@ -36,8 +36,7 @@ img {
 }
 
 div {
-    margin: 40px auto;
-    width: 80%;
+    margin: 40px 20%;
 }
 
 hr {
@@ -70,7 +69,8 @@ input {
     padding: 10px;
     background-color: $background-color_4;
     border-radius: 8px;
-    &:focus{
+
+    &:focus {
         outline: 2px solid #15ca15;
         border-radius: 22px;
     }
