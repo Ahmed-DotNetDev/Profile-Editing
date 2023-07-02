@@ -4,7 +4,7 @@ body {
   letter-spacing: 1px;
   background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1 {
@@ -17,10 +17,9 @@ h1 {
 
 img {
   width: 300px;
-  height: 270px;
   display: block;
   margin-bottom: 40px;
-  outline: 10px solid hsla(120, 98%, 44%, 0.129);
+  outline: 10px solid rgba(3, 222, 3, 0.1294117647);
   border-radius: 1000000px;
 }
 img:hover {
