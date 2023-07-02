@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/profile.jpg">
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <h1>User profile</h1>
+    <div class="container">
+        <div id="display-view">
+            <img src="images/profile.jpg" onclick="goAccount()" title="GitHub Account">
+
+            <span>Name: </span><b id="name">Ahmed abdelrahman</b>
+            <hr />
+
+            <span>Email: </span><b id="email">abdelrohman3351635@gmail.com</b>
+            <hr />
+
+            <span>Interests: </span><b id="interests">Software engineering</b>
+            <hr />
+
+            <button onclick="handleEditProfile()">Edit Profile</button>
+        </div>
+
+        <div id="edit-view">
+            <img src="images/profile.jpg">
+
+            <span>Name: </span>
+            <input type="text" id="input-name" placeholder="Ahmed abdelrahman" />
+            <hr />
+
+            <span>Email: </span>
+            <input type="text" id="input-email" placeholder="abdelrohman3351635@gmail.com" />
+            <hr />
+
+            <span>Interests: </span>
+            <input type="text" id="input-interests" placeholder="Software engineering" />
+            <hr />
+
+            <button onclick="handleUpdateProfile()">Update Profile</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
